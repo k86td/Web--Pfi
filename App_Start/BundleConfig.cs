@@ -13,8 +13,10 @@ namespace MySpace
                                     "~/Scripts/bootbox.js"));
 
             bundles.Add(new ScriptBundle("~/bundles/jqueryval").Include(
-                        "~/Scripts/jquery.validate*",
-                        "~/Scripts/FormUtilities.js"));
+                        "~/Scripts/jquery.validate*"));
+
+            bundles.Add(new ScriptBundle("~/bundles/FormUtilities").Include(
+                          "~/Scripts/FormUtilities.js"));
 
             bundles.Add(new ScriptBundle("~/bundles/imageUploader").Include(
                         "~/Scripts/imageUploader.js"));
