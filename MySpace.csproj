@@ -137,6 +137,7 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\DBDAL.cs" />
+    <Compile Include="Models\EmailView.cs" />
     <Compile Include="Models\FriendShip.cs">
       <DependentUpon>MySpaceDBEntities.tt</DependentUpon>
     </Compile>
